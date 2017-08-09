@@ -1,0 +1,137 @@
+body {
+
+}
+
+.header {
+	background: url(../img/pw_maze_black_2X.png) left top repeat;
+	padding-top: 220px;
+	text-align: center;
+}
+
+.logo {
+	width: 130px;
+	margin: 0 auto 35px;
+}
+
+.logo img {
+	vertical-align: middle;
+	border-style: none;
+	max-width: 100%;
+}
+
+.header h1 {
+	font-size: 45px;
+	font-weight: 400;
+	letter-spacing: -1;
+	margin: 0 0 22px 0;
+	font-family: 'Saira', sans-serif;
+	color: #fff;
+}
+
+.phrase {
+	color: #bcbcbc;
+	display: inline-block;
+	font-size: 22px;
+	text-transform: uppercase;
+	margin: 0 5px 0 0;
+	padding: 0 0 0 0;
+	font-family: 'Anton', sans-serif;
+	list-style: none;
+}
+
+.link {
+	padding: 15px 35px;
+	background: #7cc576;
+	color: #fff;
+	font-size: 16px;
+	font-weight: 400;
+	display: inline-block;
+	border-radius: 3px;
+	line-height: 25px;
+	margin-bottom: 20px;
+}
+
+/* NAV */
+.main-nav-outer {
+	padding: 0px;
+	border-bottom: 1px solid #dddddd;
+	box-shadow: 0 4px 5px -3px #ececec;
+	position: relative;
+	background: #fff;
+}
+
+.main-nav {
+	text-align: center;
+	margin: 10px 0 0px;
+	padding: 0;
+	list-style: none;
+}
+
+.main-nav li {
+	display: inline;
+	margin: 0 1px;
+}
+
+.main-nav li a {
+	display: inline-block;
+	color: #222222;
+	text-transform: uppercase;
+	font-family: 'Anton', sans-serif;
+	font-size: 18px;
+	text-decoration: none;
+	line-height: 20px;
+	margin: 17px 32px;
+}
+
+
+/* MAIN SECTION */
+
+.main-section h2 {
+	text-align: center;
+	font-family: 'Saira', sans-serif;
+	padding: 20px 0 20px 0;
+}
+
+
+/* SERVICES */
+
+#service h2 {
+
+
+}
+
+.cards {
+	width: 100%;
+	position:relative;
+	height: 300px;
+	/*float: left;*/
+	margin: 4px;
+	background-size: 100%;
+	background-position: center;
+	transition: 0.5s;
+}
+
+.cards:hover {
+	background-size: 110%;
+}
+.cards:after {
+	content:attr(data-text);
+	top: 100%;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	word-wrap: break-word;
+	overflow: hidden;
+	background-color: rgba(0,0,0,0,6);
+	color: #fff;
+	padding:0 8px;
+	opacity: 0;
+	transition: 0.5s;
+}
+
+.cards:hover:after {
+	opacity: 1;
+	top: 0;
+	padding: 8px;
+}
+
