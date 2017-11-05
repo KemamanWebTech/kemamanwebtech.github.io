@@ -3,13 +3,15 @@ body {
 }
 
 .header {
-	background: url(../img/pw_maze_black_2X.png) left top repeat;
-	padding-top: 220px;
+	/* background: url(../img/pw_maze_black_2X.png) left top repeat; */
+	background: #303e47;
+	padding-top: 50px;
+	padding-bottom: 50px;
 	text-align: center;
 }
 
 .logo {
-	width: 130px;
+	width: 300px;
 	margin: 0 auto 35px;
 }
 
@@ -18,6 +20,8 @@ body {
 	border-style: none;
 	max-width: 100%;
 }
+
+
 
 .header h1 {
 	font-size: 45px;
@@ -32,7 +36,6 @@ body {
 	color: #bcbcbc;
 	display: inline-block;
 	font-size: 22px;
-	text-transform: uppercase;
 	margin: 0 5px 0 0;
 	padding: 0 0 0 0;
 	font-family: 'Anton', sans-serif;
@@ -116,7 +119,7 @@ body {
 /*TEAM*/
 
 .team {
-	padding-bottom: 30px;
+	/* padding-bottom: 30px; */
 }
 
 /*END OF TEAM*/
@@ -159,12 +162,16 @@ body {
 	width: 40%;
 }
 
-/* The company logo */
+.footer-logo {
+	/* width: 60px;
+	margin: 0 auto 10px; */
+}
 
-.footer-distributed h3{
-	color:  #ffffff;
-	font: normal 36px 'Cookie', cursive;
-	margin: 0;
+.footer-logo img {
+	width: 300px;
+	margin: 0 auto 15px;
+	vertical-align: middle;
+	border-style: none;
 }
 
 .footer-distributed h3 span{
@@ -188,7 +195,7 @@ body {
 
 .footer-distributed .footer-company-name{
 	color:  #8f9296;
-	font-size: 14px;
+	font-size: 16px;
 	font-weight: normal;
 	margin: 0;
 }
@@ -197,6 +204,12 @@ body {
 
 .footer-distributed .footer-center{
 	width: 35%;
+}
+
+.footer-distributed .footer-center h2{
+	font-family: 'Saira', sans-serif;
+	color: #ffffff;
+	margin-bottom: 15px;
 }
 
 .footer-distributed .footer-center i{
