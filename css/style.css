@@ -158,12 +158,21 @@ body {}
 
 /*TEAM*/
 
-.team {
-    /* padding-bottom: 30px; */
+.teamCard {
+    text-align: center;
+}
+
+.teamImg img {
+    width: 250px; 
+    height: 250px; 
+    border-radius: 200px;
+    background: #292c2f;
+    padding: 10px; 
 }
 
 .teamTitle p {
     font-size: 20px;
+    color: #5e6166;
 }
 
 
