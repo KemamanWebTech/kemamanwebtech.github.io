@@ -158,6 +158,38 @@ body {}
 /* end OF SERVICES*/
 
 
+/* Techs */
+
+.tech {
+    background-color: #303e47;
+    text-align: center;
+    font-family: Merriweather, sans-serif;
+    padding: 20px 0 20px 0;
+    font-size: 18px;
+    color: #F1F0FF;
+    padding-bottom: 30px;
+    margin-top: 10px;
+}
+
+.techContainer {
+
+    width: 100%;
+        margin: 10px;
+
+
+}
+
+.techContainer .techIcon {
+    font-size: 100px;
+    margin: 10px;
+        line-height: 130%;
+
+}
+
+
+/* end of Techs  */
+
+
 /*TEAM*/
 
 .teamCard {
@@ -165,11 +197,11 @@ body {}
 }
 
 .teamImg img {
-    width: 250px; 
-    height: 250px; 
+    width: 250px;
+    height: 250px;
     border-radius: 200px;
     background: #292c2f;
-    padding: 10px; 
+    padding: 10px;
 }
 
 .teamTitle p {
@@ -202,7 +234,7 @@ body {}
     box-sizing: border-box;
     width: 100%;
     text-align: left;
-    font: bold 16px ;
+    font: bold 16px;
     font-family: Merriweather, sans-serif;
     padding: 55px 50px;
     margin-top: 80px;
