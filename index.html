@@ -1,102 +1,32 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-<script charset='UTF-8'>
-window['adrum-start-time'] = new Date().getTime();
-(function(config){
-    config.appKey = 'EUM-AAB-AUA';
-    config.adrumExtUrlHttp = 'http://cdn.appdynamics.com';
-    config.adrumExtUrlHttps = 'https://cdn.appdynamics.com';
-    config.beaconUrlHttp = 'http://cloudvision.dynalias.com:7001';
-    config.beaconUrlHttps = 'https://cloudvision.dynalias.com:7002';
-    config.xd = {enable : true};
-})(window['adrum-config'] || (window['adrum-config'] = {}));
-if ('https:' === document.location.protocol) {
-    document.write(unescape('%3Cscript')
- + " src='https://cdn.appdynamics.com/adrum/adrum-4.3.3.5.js' "
- + " type='text/javascript' charset='UTF-8'" 
- + unescape('%3E%3C/script%3E'));
-} else {
-    document.write(unescape('%3Cscript')
- + " src='http://cdn.appdynamics.com/adrum/adrum-4.3.3.5.js' "
- + " type='text/javascript' charset='UTF-8'" 
- + unescape('%3E%3C/script%3E'));
-}
-</script>
 	<title>Kemaman Web Tech</title>
 
-	<script
-	src="http://code.jquery.com/jquery-3.2.1.slim.min.js"
-	integrity="sha256-k2WSCIexGzOj3Euiig+TlR8gA0EmPjuc79OEeY5L45g="
-	crossorigin="anonymous"></script>
-
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
-	<script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
-	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
-
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+	<!-- script  -->
 	<link href="https://fonts.googleapis.com/css?family=Anton|Saira" rel="stylesheet">
+	<script src="js/jquery-3.2.1.slim.min.js"></script>
+	<script src="js/fontawesome.js"></script>
+	<script src="js/tether.1.4.0min.js"></script>
+
+	<!-- styles  -->
 	<link href="css/style.css" rel="stylesheet" type="text/css">
-	<script src="https://use.fontawesome.com/d7b4ce5d37.js"></script>
+	<link href="css/bootstrap.4.0.0.min.css" rel="stylesheet" type="text/css">
+	<link href="css/animate.3.5.2.min.css" rel="stylesheet" type="text/css">
+	<link href="https://afeld.github.io/emoji-css/emoji.css" rel="stylesheet">
 
 
-	<style>
-		.cardContainer {
-			/* padding: 20px; */
-		}
-
-		.cardImg {
-			display: block;
-			width: 100%;
-			height: auto;
-		}
-
-		.cardOverlay {
-			position: absolute;
-			bottom: 100%;
-			left: 0;
-			right: 0;
-			background-color: #303e47;
-			overflow: hidden;
-			width: 100%;
-			height:0;
-			transition: .5s ease;
-		}
-
-		.cardContainer:hover .cardOverlay {
-			bottom: 0;
-			height: 100%;
-		}
-
-		.cardText {
-			color: white;
-			font-size: 13px;
-			position: absolute;
-			overflow: hidden;
-			top: 50%;
-			left: 40%;
-			transform: translate(-50%, -50%);
-			-ms-transform: translate(-50%, -50%);
-		}
-
-		.teamTitle p {
-			font-size: 20px;
-		}
-
-
-
-
-	</style>
 </head>
+
 <body>
 
 	<!-- HEADER -->
 	<header class="header">
 		<div class="container">
 			<figure class="logo animated fadeInDown delay-07s">
-				<a href="#about"><img src="img/kwt.png" alt="kwt logo"></a>	
-			</figure>	
+				<a href="#about"><img src="img/kwt.png" alt="kwt logo"></a>
+			</figure>
 			<ul class="we-create animated fadeInUp delay-1s">
 				<div class="phrase">
 					<li>Got a project? Let us work on it.</li>
@@ -107,13 +37,16 @@ if ('https:' === document.location.protocol) {
 	<!-- END OF HEADER -->
 
 	<!-- Nav -->
-	<nav class="main-nav-outer nav"><!--main-nav-start-->
+	<nav class="main-nav-outer nav">
+		<!--main-nav-start-->
 		<div class="container">
 			<ul class="main-nav">
 				<li><a href="#about">About</a></li>
 				<li><a href="#service">Services</a></li>
 				<li><a href="#team">Team</a></li>
 				<li><a href="#contact">Contact</a></li>
+				<li><a href="#offer">Offer</a></li>
+
 			</ul>
 		</div>
 	</nav>
@@ -124,10 +57,10 @@ if ('https:' === document.location.protocol) {
 		<div class="container">
 			<h2 style="text-align: center;">Who are we?</h2>
 			<div class="col-lg-12">
-						Kemaman Web Tech is a small tech company based in Cyberjaya.
-						We work on websites and applications for small businesses and personnel with tight budgets and we love doing it.
-						We've been around since 2016. Our goal is to provide satisfactory solutions to our clients which don't break their budget. 
-					 	If you have a project with small budget, don't sweat, you can reach us.
+				Kemaman Web Tech is a small tech company based in Cyberjaya. We work on websites and applications for small businesses and
+				personnel with tight budgets and we love doing it. We've been around since 2016. Our goal is to provide satisfactory
+				solutions to our clients which don't break their budget. If you have a project with small budget, don't sweat, you can
+				reach us.
 			</div>
 		</div>
 	</section>
@@ -140,7 +73,9 @@ if ('https:' === document.location.protocol) {
 					<div class="cardContainer">
 						<img src="img/workdesk-working_440x286.jpeg" alt="serviceItems" class="cardImg">
 						<div class="cardOverlay">
-							<div class="cardText">The internet today is filled with far too many template sites which usually unable to tell the whole story or to convey truthfully what your business has. It's just too bland and makes little efforts to truly set you apart from the others. That's where our passion comes in. We want to set you apart. Put your thoughts on paper and we are ready to go.
+							<div class="cardText">The internet today is filled with far too many template sites which usually unable to tell the whole story or to convey
+								truthfully what your business has. It's just too bland and makes little efforts to truly set you apart from the others.
+								That's where our passion comes in. We want to set you apart. Put your thoughts on paper and we are ready to go.
 							</div>
 						</div>
 					</div>
@@ -149,7 +84,9 @@ if ('https:' === document.location.protocol) {
 					<div class="cardContainer">
 						<img src="img/service-wordpress.png" alt="serviceItems" class="cardImg">
 						<div class="cardOverlay">
-							<div class="cardText">WordPress is an open source platform optimized for blog-like websites. If you often post articles or news on your website then Wordpress is a very favorable solution. WordPress is quick and easy to install and gives you a lot of control over the content on your website. 
+							<div class="cardText">WordPress is an open source platform optimized for blog-like websites. If you often post articles or news on your
+								website then Wordpress is a very favorable solution. WordPress is quick and easy to install and gives you a lot of
+								control over the content on your website.
 							</div>
 						</div>
 					</div>
@@ -158,7 +95,9 @@ if ('https:' === document.location.protocol) {
 					<div class="cardContainer">
 						<img src="img/service-design.png" alt="serviceItems" class="cardImg">
 						<div class="cardOverlay">
-							<div class="cardText">Be it mobile or web applications, we also work on developing small-to-medium projects such as Warehouse Inventory Management System, HR system, Ticketing system etc. Reach out to us with your requirements and we'll have a go at it. 
+							<div class="cardText">Be it mobile or web applications, we also work on developing small-to-medium projects such as Warehouse Inventory
+								Management System, HR system, Ticketing system etc. Reach out to us with your requirements and we'll have a go at
+								it.
 							</div>
 						</div>
 					</div>
@@ -167,7 +106,9 @@ if ('https:' === document.location.protocol) {
 					<div class="cardContainer">
 						<img src="img/service-hosting.png" alt="serviceItems" class="cardImg">
 						<div class="cardOverlay">
-							<div class="cardText">We also offer website hosting so you don't have to go through the hassle of getting the site working with the other hosting providers. If you're looking for a web hosting without having us to build the website for you, you should ask us too. 
+							<div class="cardText">We also offer website hosting so you don't have to go through the hassle of getting the site working with the other
+								hosting providers. If you're looking for a web hosting without having us to build the website for you, you should
+								ask us too.
 							</div>
 						</div>
 					</div>
@@ -176,7 +117,9 @@ if ('https:' === document.location.protocol) {
 					<div class="cardContainer">
 						<img src="img/service-social-media.png" alt="serviceItems" class="cardImg">
 						<div class="cardOverlay">
-							<div class="cardText">We also provide email hosting to our clients. Email hosting will now be included by default in all of our hosting plans. It'll help set your business apart with a custom your-name@business-name email address. If you just need the email, give us a call too.
+							<div class="cardText">We also provide email hosting to our clients. Email hosting will now be included by default in all of our hosting
+								plans. It'll help set your business apart with a custom your-name@business-name email address. If you just need the
+								email, give us a call too.
 							</div>
 						</div>
 					</div>
@@ -185,7 +128,9 @@ if ('https:' === document.location.protocol) {
 					<div class="cardContainer">
 						<img src="img/service-support.png" alt="serviceItems" class="cardImg">
 						<div class="cardOverlay">
-							<div class="cardText">We also provide cheap VPS if you need one for your temporary or long term projects. You will get complete root access to your server as if it were your dedicated server. You will have complete control over your server and almost the same benefits of the pricey dedicated server.
+							<div class="cardText">We also provide cheap VPS if you need one for your temporary or long term projects. You will get complete root access
+								to your server as if it were your dedicated server. You will have complete control over your server and almost the
+								same benefits of the pricey dedicated server.
 							</div>
 						</div>
 					</div>
@@ -235,7 +180,7 @@ if ('https:' === document.location.protocol) {
 				</div>
 				<div class="col-lg-3">
 					<div class="teamCard">
-						<div class="teamImg" >
+						<div class="teamImg">
 							<img src="img/serah.jpg" alt="serah" style="max-width: 300px; max-height: 300px; margin: 20px; box-shadow: 0 2px 15px 0 rgba(0,0,0,.16), 0 5px 10px 0 rgba(0,0,0,.12)">
 						</div>
 						<div class="teamInfo" style="padding-top: 20px;">
@@ -262,12 +207,13 @@ if ('https:' === document.location.protocol) {
 
 	<!-- END OF TEAM -->
 
+	<!-- Footer  -->
 	<section class="footer" id="contact">
 		<footer class="footer-distributed">
 			<div class="footer-left">
-			<a class="footer-logo"><img src="img/kwt.png"> </a>
-				<p class="footer-company-name">Kemaman Web Tech &copy; 2017 All rights reserved </p>
-				<p class="footer-company-name">Business Registration No : 002655185-D </p>
+				<a class="footer-logo"><img src="img/kwt.png"> </a>
+				<p class="footer-text">Copyright &copy; 2016-2017 Kemaman Web Tech - All Rights Reserved </p>
+				<p class="footer-text">Business Registration No : 002655185-D </p>
 			</div>
 
 			<div class="footer-center">
@@ -276,8 +222,7 @@ if ('https:' === document.location.protocol) {
 				</div>
 				<div>
 					<i class="fa fa-map-marker"></i>
-					<p>No 5, Jalan PC 3/7, Taman Pinggiran Cyber<br>
-					   61300 Cyberjaya, Selangor<br></p>
+					<p>No 5, Jalan PC 3/7, Taman Pinggiran Cyber<br> 61300 Cyberjaya, Selangor<br></p>
 				</div>
 				<div>
 					<i class="fa fa-phone"></i>
@@ -293,21 +238,23 @@ if ('https:' === document.location.protocol) {
 				</div>
 			</div>
 
-			 <div class="footer-right">
-				<p class="footer-company-about">
-					Cool, you are still here!<br><br>
-					
-					Now since we have your attention...Here is an offer for you. 
-					Since we're quite new, we can do some of the small projects for free at the moment.
-					What we ask from you is that we can showcase your project on our site as our portfolio
-					and perhaps some testimonial as well, if that is not too much.<br><br>
-
-					Give us a call. Let's talk about it.<br>
+			<div class="footer-right" id="offer">
+				<div>
+					<h2>Limited time offer</h2>
+				</div>
+				<p class="footer-text">
+					Cool, you are still here! <i class="em em-heart"></i>
+					<br><br> Now since we have your attention...here is an offer for you <i class="em em-grinning"></i>
+					<br><br> Since <b>KWT</b> is quite new, we can do some small projects for <b>FREE</b> at the moment. <br>
+					In return, we would like to showcase your projects on our site as our portfolio.
+					<br><br> Give us a call. Let's talk about it.<br>
 				</p>
 
-			</div> 
+			</div>
 
 		</footer>
 	</section>
+	<!-- end of footer  -->
 </body>
+
 </html>
